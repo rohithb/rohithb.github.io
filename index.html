@@ -1,67 +1,27 @@
-<html><head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Blog Title</title>
-      <meta name="author" content="authorName">
-      <meta name="description" content="BlogDescription">
-      <link href="//fonts.googleapis.com/css?family=Nunito:400,700,300|Varela+Round" rel="stylesheet" type="text/css">
-      <!-- <link rel="shortcut icon" href="/static/favicon.png"> -->
-      <style>
-          article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn,em{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,input[type="submit"]{-webkit-font-smoothing:antialiased;background-color:#B57801;border-radius:0.1875em;color:white;display:inline-block;font-size:1em;font-weight:bold;line-height:1;padding:.75em 1em;text-decoration:none}button:hover,input[type="submit"]:hover{background-color:#694601;color:white}body{-webkit-font-smoothing:antialiased;background-color:white;color:#333;font-family:"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-size:1em;line-height:1.5}h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;line-height:1.25em;margin:0;text-rendering:optimizeLegibility}h1{font-size:2.25em}h2{font-size:2em}h3{font-size:1.75em}h4{font-size:1.5em}h5{font-size:1.25em}h6{font-size:1em}p{margin:0 0 0.75em}a{-webkit-transition:color 0.1s linear;-moz-transition:color 0.1s linear;transition:color 0.1s linear;color:#B57801;text-decoration:none}a:hover{color:#694601}a:active,a:focus{color:#694601;outline:none}hr{border-bottom:1px solid #DDD;border-left:none;border-right:none;border-top:none;margin:1.5em 0}img{margin:0;max-width:100%}blockquote{border-left:3px solid #DDD;color:#595959;margin:1.5em 0;padding-left:0.75em}cite{color:#737373;font-style:italic}cite:before{content:'\2014 \00A0'}fieldset{background:#f7f7f7;border:1px solid #DDD;margin:0 0 0.75em 0;padding:1.5em}input,label,select{display:block;font-family:"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-size:1em}label{font-weight:bold;margin-bottom:0.375em}label.required:after{content:"*"}label abbr{display:none}textarea,input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="url"],input[type="color"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="time"],input[type="week"],select[multiple=multiple]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:border-color;-moz-transition:border-color;transition:border-color;background-color:white;border-radius:0.1875em;border:1px solid #DDD;box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.06);font-family:"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-size:1em;margin-bottom:0.75em;padding:0.5em 0.5em;width:100%}textarea:hover,input[type="email"]:hover,input[type="number"]:hover,input[type="password"]:hover,input[type="search"]:hover,input[type="tel"]:hover,input[type="text"]:hover,input[type="url"]:hover,input[type="color"]:hover,input[type="date"]:hover,input[type="datetime"]:hover,input[type="datetime-local"]:hover,input[type="month"]:hover,input[type="time"]:hover,input[type="week"]:hover,select[multiple=multiple]:hover{border-color:#c4c4c4}textarea:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="text"]:focus,input[type="url"]:focus,input[type="color"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="month"]:focus,input[type="time"]:focus,input[type="week"]:focus,select[multiple=multiple]:focus{border-color:#477DCA;box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);outline:none}textarea{resize:vertical}input[type="search"]{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none}input[type="checkbox"],input[type="radio"]{display:inline;margin-right:0.375em}input[type="file"]{margin-bottom:0.75em;padding-bottom:0.5em;width:100%}select{width:auto;max-width:100%;margin-bottom:1.5em}table{border-collapse:collapse;margin:0.75em 0;table-layout:fixed;width:100%}th{border-bottom:1px solid #b7b7b7;font-weight:bold;padding:0.75em 0;text-align:left}td{border-bottom:1px solid #DDD;padding:0.75em 0}tr,td,th{vertical-align:middle}ul,ol{margin:0;padding:0;list-style-type:none}dl{margin-bottom:0.75em}dl dt{font-weight:bold;margin-top:0.75em}dl dd{margin:0}button,input[type="submit"]{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;border:none;cursor:pointer;user-select:none;vertical-align:middle;white-space:nowrap}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.spacer{padding-bottom:1em}light div .gi,.highlight div .gi .x{display:inline-block;width:100%}code,pre{font-family:Monaco,Menlo,Consolas,"Courier New",monospace}pre{border:1px solid #ddd;background-color:#eef;padding:0 .4em;margin-bottom:20px !important;font-size:.9em}body{border-top:7px solid #FFDC00}header{height:50px;margin-bottom:12.5px;display:block;width:100%;font-family:"Nunito", sans-serif;font-weight:300}header:after{content:"";display:table;clear:both}header a.logo{float:left;max-height:50px}header a.logo img{max-height:30px;margin-top:10px;margin-bottom:10px}header nav{float:right;text-align:center}header nav ul li{display:inline;text-decoration:none;line-height:50px;font-size:.9em}header nav ul li a{color:#40526b}header nav ul li a:hover{color:#232d3b}header nav ul li :after{content:" \00b7";font-weight:bold}header nav li.no-bullet :after{content:none}section{max-width:68em;margin-left:auto;margin-right:auto;width:720px;margin:10px auto;padding-top:10px}section:after{content:"";display:table;clear:both}@media screen and (min-width: 680px) and (max-width: 760px){section{width:600px}}@media screen and (min-width: 500px) and (max-width: 680px){section{width:520px}}@media screen and (max-width: 500px){section{width:300px}}article{text-align:left}article:after{content:"";display:table;clear:both}article h1{font-family:"Varela Round", sans-serif;font-size:1.2em;color:#40526b;margin-bottom:.4em}@media screen and (min-width: 40em){article h1{font-size:1.7em}}article h1.title{font-size:1.4em}@media screen and (min-width: 40em){article h1.title{font-size:1.9em}}article h2{font-family:"Varela Round", sans-serif;font-size:1.2em;font-weight:400;line-height:1.4em;margin-bottom:.3em}@media screen and (min-width: 40em){article h2{font-size:1.4em}}article h3{font-family:"Varela Round", sans-serif;font-size:1.2em;font-weight:400;line-height:1.3em;margin-bottom:.3em}article p.subtitle{color:rgba(51, 51, 51, 0.4);font-family:"Nunito", sans-serif;font-size:.9em;margin-bottom:.5em;margin-top:.3em}article p.subtitle .date{float:right}article p{font-family:"Nunito", sans-serif;line-height:1.4em;font-size:1.05em;font-weight:300;margin-bottom:1em}article p span{font-family:"Varela Round", sans-serif;font-size:0.9em}article p.author{font-family:"Nunito", sans-serif}article ul{margin:1em 0;list-style:disc}article pre code{border:none;font-size:100%}article code{border:1px solid #ddd;background-color:#eef;font-size:85%;padding:0 .3em}article hr{width:40%;margin-left:auto;margin-right:auto}article hr.fin{width:100%;margin-left:0;margin-bottom:15px;margin-top:60px}article blockquote{font-size:1.2em;border-color:#FFDC00;font-style:italic}footer{max-width:68em;margin-left:auto;margin-right:auto;padding-bottom:30px;font-size:.9em;margin-top:5px}@media screen and (max-width: 760px){footer{display:none}}footer:after{content:"";display:table;clear:both}footer #bio{float:left;display:block;margin-right:2.35765%;width:65.88078%;display:table}footer #bio:last-child{margin-right:0}footer aside{float:left;display:block;margin-right:2.35765%;width:31.76157%;text-align:right}footer aside:last-child{margin-right:0}footer aside p{margin-bottom:1em}footer #bio-image img{height:auto;width:100px;max-width:none;display:block}footer #bio-image{padding-right:.8em}footer #bio-image,footer #bio-text{display:table-cell;vertical-align:top}footer #bio-text p{margin-bottom:0.5em}footer #bio-social{margin-top:-12px}footer #bio-social a{color:#40526b;font-size:1.8em}footer #bio-social #social-links{display:inline-block;position:relative;top:4px;left:4px}footer h3{font-size:1em}#writeup img{padding:5px;border:1px solid #AAA;border-radius:3px;box-shadow:0 1px 3px rgba(0, 0, 0, 0.055)}#post img{margin:0 auto;display:block}#fine-print{text-align:center;font-size:11px;color:#666}#series h3{color:#40526b;text-align:center;font-family:"Varela Round", sans-serif}#series p{color:rgba(51, 51, 51, 0.4);font-family:"Varela Round", sans-serif;text-align:center;font-size:0.9em;width:75%;margin:0 auto 0.75em auto}#series ul{overflow:hidden;padding-bottom:40px}#series li{text-align:center;font-family:"Nunito", sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:300;color:#B57801}@media screen and (min-width: 40em){#series li{width:48%;margin-left:1%;margin-right:1%;float:left;display:inline}}#series .favorite{font-weight:700}
-      </style>
-</head>
 
-<body>
-    <section>
-        <header class="navigation">
-          <nav>
-          </nav>
-        </header>
-        
-          <article>
-              <h1 class="title">Test </h1>
-              <p class="subtitle">
-                  <span>Date: <a href=""></a></span>
-                  <span class="date">Tue Mar 15 2016 10:52:29 GMT+0000 (UTC)</span>
-              </p>
-              <div id="post">
-                <p>This is a simple test post.&nbsp;</p>
-              </div>
-              <div class="spacer"></div>
-          </article>
-        
-          <article>
-              <h1 class="title">Test from mobile app </h1>
-              <p class="subtitle">
-                  <span>Date: <a href=""></a></span>
-                  <span class="date">Mon Feb 01 2016 02:55:30 GMT+0000 (UTC)</span>
-              </p>
-              <div id="post">
-                <p>This is posted from the mobile apl</p>
-              </div>
-              <div class="spacer"></div>
-          </article>
-        
-          <article>
-              <h1 class="title">Test Post rohith Joel Test </h1>
-              <p class="subtitle">
-                  <span>Date: <a href=""></a></span>
-                  <span class="date">Thu Jan 28 2016 19:49:36 GMT+0000 (UTC)</span>
-              </p>
-              <div id="post">
-                <p><strong><br>Lorem Ipsum</strong><strong><span>&nbsp;</span>is simply dummy text of the printing and typesetting industry. Lorem Ipsum &nbsp;been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</strong></p><p><strong>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &apos;Content here, content here&apos;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</strong></p><p><strong>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</strong></p><p><strong>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</strong></p><p><strong><br></strong><br></p><p><strong>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</strong></p><p></p><form action="http://www.lipsum.com/feed/html" method="post"><p><br></p></form><p></p>
-              </div>
-              <div class="spacer"></div>
-          </article>
-        
-        <footer>
-        <hr class="fin">
-        </footer>
-        <div id="fine-print">
-          <p>
-            built with <a href="#">&hearts;</a>, <a href="http://templeb.meteor.com/">Templeb</a>, and <a href="https://pages.github.com">GitHub Pages</a>
-          </p>
-        </div>
-      </section>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site is down for maintenance</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style type="text/css">
+            body { text-align: center; padding: 10%; font: 20px Helvetica, sans-serif; color: #333; }
+            h1 { font-size: 50px; margin: 0; }
+            article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
+            a { color: #dc8100; text-decoration: none; }
+            a:hover { color: #333; text-decoration: none; }
+            @media only screen and (max-width : 480px) {
+                h1 { font-size: 40px; }
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <h1>Site is temporarily unavailable.</h1>
+            <p>Scheduled maintenance is currently in progress. Please check back soon.</p>
+            <p>We apologize for any inconvenience.</p>
+            <p id="signature">&mdash; <a href="mailto:[Email]">[Name]</a></p>
+        </article>
+    </body>
 </html>
